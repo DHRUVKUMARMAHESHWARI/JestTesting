@@ -6,4 +6,7 @@ function objChecker(obj)
 {
     return (obj);
 }
-module.exports = {sum  , objChecker};
+function dbConnection() {
+  return "DB connection successfull";
+}
+module.exports = { sum, objChecker, dbConnection };
